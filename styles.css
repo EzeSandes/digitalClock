@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+:root{
+   --background-primary: #2B2E4A;
+   --primary-color: #fed049;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+   background-color: var(--background-primary);
+   color: var(--primary-color);
+   font-family: 'IBM Plex Mono', monospace;
+   font-weight: 400;
+   font-size: 4rem;
+}
+
+main{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
